@@ -1,9 +1,9 @@
 nav {
     position: relative;
-    display: flex;
-    justify-content: space-around;
-    align-items: center;
-    height: 75px;
+   display: flex;
+   justify-content: space-around;
+   align-items: center;
+    height: 10vh;
 }
 
 .navbar-text {
@@ -12,16 +12,16 @@ nav {
 
 header {
     position: relative;
-    background-color: rgb(82, 49, 119);
+    background-color: rgba(31, 31, 31, 0.26);
 }
 
 .nav-link {
-    color: rgb(214, 214, 214); 
-    font-family: 'Poppins', sans-serif;
+    color:  #232224;
+    font-family: 'Playfair Display SC', serif;
 }
 
 .nav-link:hover {
-    color: rgb(43, 43, 43);
+    color: rgb(221, 219, 219);
 }
 
 .dropdown {
@@ -39,9 +39,28 @@ header {
     content: none;
 }
 
-.testy {
-    color: blue;
+.landing {
+    background-image: url(./Images/swabysedit.png);
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+    height: 100vh;
 }
+
+h1 {
+    padding-top: 30vh;
+    text-align: center;
+    font-size: 60px;
+    font-family: 'Playfair Display SC', serif;
+    color: rgb(221, 219, 219);
+}
+
+h2 {
+    font-family: 'Playfair Display', serif;
+    text-align: center;
+    color: rgb(221, 219, 219);
+}
+
 @media screen and (max-width: 768px) {
 
     .dropdown {
