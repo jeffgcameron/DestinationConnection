@@ -1,0 +1,66 @@
+nav {
+    position: relative;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    height: 75px;
+}
+
+.navbar-text {
+    padding: 0;
+}
+
+header {
+    position: relative;
+    background-color: rgb(82, 49, 119);
+}
+
+.nav-link {
+    color: rgb(214, 214, 214); 
+    font-family: 'Poppins', sans-serif;
+}
+
+.nav-link:hover {
+    color: rgb(43, 43, 43);
+}
+
+.dropdown {
+    display: none;
+}
+
+.dropdown-toggle div {
+    width: 25px;
+    height: 2px;
+    background-color: rgb(214, 214, 214); 
+    margin: 5px;
+}
+
+.dropdown-toggle::after {
+    content: none;
+}
+
+.testy {
+    color: blue;
+}
+@media screen and (max-width: 768px) {
+
+    .dropdown {
+        display: flex;
+    }
+    .full {
+        display: none;
+    }
+
+    .dropdown-menu {
+        opacity: 75%;
+    }
+
+    .dropdown-item {
+       font-family: 'Lora', serif;
+    }
+
+    .dropdown-item:hover {
+        opacity: 100%;
+        font-weight: bolder;
+    }
+}
