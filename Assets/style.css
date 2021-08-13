@@ -122,12 +122,22 @@ h3 {
     margin-right: auto;
 }
 
+.info-name {
+    font-size: 20px;
+}
+
+p {
+    font-family: 'Montserrat', sans-serif;
+    color:rgb(35, 31, 32) ;
+}
+
 .info-content {
     margin-bottom: 0;
 }
 
 .info-phone {
     margin-top: 10px;
+    margin-bottom: 10px;
 }
 
 .info {
