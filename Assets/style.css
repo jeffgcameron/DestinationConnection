@@ -83,7 +83,6 @@ header {
 
 .info-section {
     text-align: center;
-    
 }
 
 .section-header {
@@ -99,19 +98,10 @@ h1 {
   color: rgb(197, 197, 197);
 }
 
-h2 {
-  font-family: "Playfair Display", serif;
-  text-align: center;
-  color: rgb(221, 219, 219);
-}
-
 .content {
   background-color: rgba(228, 227, 227, 0.9);
-}
-
-#about {
-    padding-top: 5vh;
-    height: 75vh;
+  height: 75vh;
+  padding-top: 10vh;
 }
 
 h3 {
@@ -126,13 +116,29 @@ h3 {
     width: 5%;
 }
 
-
-
 .section-content {
     width: 75%;
     margin-left: auto;
     margin-right: auto;
 }
+
+.info-content {
+    margin-bottom: 0;
+}
+
+.info-phone {
+    margin-top: 10px;
+}
+
+.info {
+    color:rgb(35, 31, 32) ;
+}
+
+.info:hover {
+    color: rgb(121, 46, 143) ;
+    text-decoration: none;
+}
+
 
 footer {
   height: 25vh;
@@ -148,13 +154,13 @@ footer {
   justify-content: center;
 }
 
-h4 {
+/* h4 {
   color: rgb(214, 214, 214);
   font-size: 35px;
   margin-top: auto;
   margin-bottom: auto;
   font-family: "Playfair Display", serif;
-}
+} */
 
 .foot-icon {
   color: rgb(214, 214, 214);
@@ -185,5 +191,13 @@ h4 {
   .dropdown-item:hover {
     opacity: 100%;
     font-weight: bolder;
+  }
+  .content {
+      height: auto;
+      padding-bottom: 10vh;
+  }
+
+  #contact {
+      padding-top: 10vh;
   }
 }
