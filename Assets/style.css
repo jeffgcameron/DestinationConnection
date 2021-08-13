@@ -1,157 +1,189 @@
-html, body {
-    max-width: 100%;
-    overflow-x: hidden;
+html,
+body {
+  max-width: 100%;
+  overflow-x: hidden;
 }
 
 body {
-    background-image: url(./Images/swabysedit.png);
-    background-size: cover;
-    background-position: center;
-    background-attachment: fixed;
-    height: 100vh;
+  background-image: url(./Images/swabysedit.png);
+  background-size: cover;
+  background-position: center;
+  background-attachment: fixed;
+  height: 100vh;
 }
 
 nav {
-    position: relative;
-    display: flex;
-    justify-content: space-around;
-    align-items: center;
-    height: 10vh;
+  position: relative;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  height: 10vh;
+}
+
+.email {
+    height: 7.5vh;
 }
 
 .navbar-text {
-    padding: 0;
+  padding: 0;
+}
+
+.logo-header {
+    height: 5vh;
 }
 
 header {
-    position: relative;
-    background-color: rgba(31, 31, 31, 0.26);
+  position: relative;
+  background-color: rgba(31, 31, 31, 0.26);
 }
 
 .nav-link {
-    color:  #232224;
-    font-family: 'Playfair Display SC', serif;
+  color: rgb(35, 31, 32);
+  font-family: "Playfair Display SC", serif;
 }
 
 .nav-link:hover {
-    color: rgb(221, 219, 219);
+    color: rgb(121, 46, 143);
 }
 
 .dropdown {
-    display: none;
+  display: none;
 }
 
 .dropdown-toggle div {
-    width: 25px;
-    height: 2px;
-    background-color:  #232224;
-    margin: 5px;
+  width: 25px;
+  height: 2px;
+  background-color: #232224;
+  margin: 5px;
 }
 
 .dropdown-toggle::after {
-    content: none;
+  content: none;
 }
 
 .landing {
-    /* background-image: url(./Images/swabysedit.png);
-    background-size: cover;
-    background-position: center;
-    background-attachment: fixed; */
-    height: 75vh;
+  height: 100vh;
 }
 
 .logo-long {
-    margin-top: 30vh;
-    height: 30vh;
     display: block;
+    margin-left: auto;
+    margin-right: auto;
+    height: 30vh;
+    margin-top: 30vh;
+    opacity: .75;
+}
+
+.about-logo {
+  height: 25vh;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.info-section {
+    text-align: center;
+    
+}
+
+.section-header {
+    font-size: 50px;
+    color: rgb(121, 46, 143);
+}
+
+h1 {
+  padding-top: 30vh;
+  text-align: center;
+  font-size: 50px;
+  font-family: "Playfair Display SC", serif;
+  color: rgb(197, 197, 197);
+}
+
+h2 {
+  font-family: "Playfair Display", serif;
+  text-align: center;
+  color: rgb(221, 219, 219);
+}
+
+.content {
+  background-color: rgba(228, 227, 227, 0.9);
+}
+
+#about {
+    padding-top: 5vh;
+    height: 75vh;
+}
+
+h3 {
+  padding-top: 15px;
+  font-size: 30px;
+  font-family: "Playfair Display SC", serif;
+  color:rgb(121, 46, 143);
+}
+
+.logo-line {
+    border-top: 1px solid rgb(121, 46, 143);
+    width: 5%;
+}
+
+
+
+.section-content {
+    width: 75%;
     margin-left: auto;
     margin-right: auto;
 }
 
-h1 {
-    padding-top: 30vh;
-    text-align: center;
-    font-size: 50px;
-    font-family: 'Playfair Display SC', serif;
-    color: rgb(197, 197, 197);
-}
-
-h2 {
-    font-family: 'Playfair Display', serif;
-    text-align: center;
-    color: rgb(221, 219, 219);
-}
-
-.content {
-    background-color: rgba(228, 227, 227, 0.9);
-}
-
-#about, #contact, #local {
-    height: 50vh;
-}
-
-h3 {
-    margin-left: 10vh;
-    padding-top: 25px;
-    font-size: 45px;
-    font-family: 'Playfair Display SC', serif;
-    color: rgb(53, 53, 53);
-}
-
 footer {
-    height: 25vh;
-    background-image: url(./Images//mormonShort.png);
-    background-size: cover;
-    background-position: center;
-    /* background-attachment: fixed; */
-   
+  height: 25vh;
+  background-image: url(./Images//mormonShort.png);
+  background-size: cover;
+  background-position: center;
 }
 
 .foot {
-    background-color: rgba(0, 0, 0, 0.699);
-    height: 25vh;
-    display: flex;
-    justify-content: center;
+  background-color: rgba(0, 0, 0, 0.699);
+  height: 25vh;
+  display: flex;
+  justify-content: center;
 }
 
 h4 {
-    color:rgb(214, 214, 214);
-    font-size: 35px; 
-    margin-top: auto;
-    margin-bottom: auto;
-    font-family: 'Playfair Display', serif;
+  color: rgb(214, 214, 214);
+  font-size: 35px;
+  margin-top: auto;
+  margin-bottom: auto;
+  font-family: "Playfair Display", serif;
 }
 
 .foot-icon {
-    color:rgb(214, 214, 214);
-    font-size: 25px;
-    margin-left: 10px;
-    margin-right: 10px;
-    margin-top: auto;
-    margin-bottom: auto;
+  color: rgb(214, 214, 214);
+  font-size: 25px;
+  margin-left: 10px;
+  margin-right: 10px;
+  margin-top: auto;
+  margin-bottom: auto;
 }
 
-
 @media screen and (max-width: 768px) {
+  .dropdown {
+    display: flex;
+  }
+  .full {
+    display: none;
+  }
 
-    .dropdown {
-        display: flex;
-    }
-    .full {
-        display: none;
-    }
+  .dropdown-menu {
+    margin-top: 2vh;
+    background-color: rgba(31, 31, 31, 0.466);
+  }
 
-    .dropdown-menu {
-        margin-top: 2vh;
-        background-color: rgba(31, 31, 31, 0.466);
-    }
+  .dropdown-item {
+    font-family: "Playfair Display SC", serif;
+  }
 
-    .dropdown-item {
-        font-family: 'Playfair Display SC', serif;
-    }
-
-    .dropdown-item:hover {
-        opacity: 100%;
-        font-weight: bolder;
-    }
+  .dropdown-item:hover {
+    opacity: 100%;
+    font-weight: bolder;
+  }
 }
