@@ -57,13 +57,21 @@ header {
     background-size: cover;
     background-position: center;
     background-attachment: fixed; */
-    height: 100vh;
+    height: 75vh;
+}
+
+.logo-long {
+    margin-top: 30vh;
+    height: 30vh;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
 }
 
 h1 {
     padding-top: 30vh;
     text-align: center;
-    font-size: 60px;
+    font-size: 50px;
     font-family: 'Playfair Display SC', serif;
     color: rgb(197, 197, 197);
 }
