@@ -25,7 +25,7 @@ nav {
 }
 
 .logo-header {
-    height: 5vh;
+  height: 5vh;
 }
 
 header {
@@ -39,10 +39,11 @@ header {
 }
 
 .nav-link:hover {
-    color: rgb(121, 46, 143);
+  color: rgb(121, 46, 143);
 }
 
-.dropdown, .short {
+.dropdown,
+.short {
   display: none;
 }
 
@@ -62,12 +63,12 @@ header {
 }
 
 .logo-long {
-    display: block;
-    margin-left: auto;
-    margin-right: auto;
-    height: 30vh;
-    margin-top: 30vh;
-    opacity: .75;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  height: 30vh;
+  margin-top: 30vh;
+  opacity: 0.75;
 }
 
 .about-logo {
@@ -78,12 +79,12 @@ header {
 }
 
 .info-section {
-    text-align: center;
+  text-align: center;
 }
 
 .section-header {
-    font-size: 50px;
-    color: rgb(121, 46, 143);
+  font-size: 50px;
+  color: rgb(121, 46, 143);
 }
 
 h1 {
@@ -104,82 +105,92 @@ h3 {
   padding-top: 15px;
   font-size: 30px;
   font-family: "Playfair Display SC", serif;
-  color:rgb(121, 46, 143);
+  color: rgb(121, 46, 143);
 }
 
 .logo-line {
-    border-top: 1px solid rgb(121, 46, 143);
-    width: 5%;
+  border-top: 1px solid rgb(121, 46, 143);
+  width: 5%;
 }
 
 .section-content {
-    width: 75%;
-    margin-left: auto;
-    margin-right: auto;
+  width: 75%;
+  margin-left: auto;
+  margin-right: auto;
 }
 
 .info-name {
-    font-size: 20px;
+  font-size: 20px;
 }
 
 p {
-    font-family: 'Montserrat', sans-serif;
-    color:rgb(35, 31, 32) ;
+  font-family: "Montserrat", sans-serif;
+  color: rgb(35, 31, 32);
 }
 
 .info-content {
-    margin-bottom: 0;
+  margin-bottom: 0;
 }
 
 .info-phone {
-    margin-top: 10px;
-    margin-bottom: 10px;
+  margin-top: 10px;
+  margin-bottom: 10px;
 }
 
 .info {
-    color:rgb(35, 31, 32) ;
+  color: rgb(35, 31, 32);
 }
 
 .info:hover {
-    color: rgb(121, 46, 143) ;
-    text-decoration: none;
+  color: rgb(121, 46, 143);
+  text-decoration: none;
 }
 
 #email-input {
-    margin-top: 5px;
-    margin-bottom: 5px;
+  margin-top: 5px;
+  margin-bottom: 5px;
 }
 
-input, textarea {
-    background-color:  rgba(255, 255, 255, 0.75) !important;
-    font-family: 'Montserrat', sans-serif;
-    color:rgb(35, 31, 32) ;
-    font-size: 15px !important;
+input,
+textarea {
+  background-color: rgba(255, 255, 255, 0.75) !important;
+  font-family: "Montserrat", sans-serif;
+  color: rgb(35, 31, 32);
+  font-size: 15px !important;
+}
+
+textarea:focus,
+input[type="text"]:focus,
+textarea[type="text"]:focus,
+input[type="email"]:focus {
+  border-style: none;
+  box-shadow: 0 0 8px rgb(121, 46, 143);
+  outline: 0 none;
 }
 
 .first-pad {
-    padding-right: 2.5px;
-    padding-left: 0;
+  padding-right: 2.5px;
+  padding-left: 0;
 }
 
 .last-pad {
-    padding-right: 0;
-    padding-left: 2.5px;
+  padding-right: 0;
+  padding-left: 2.5px;
 }
 
 .form-group {
-    margin-top: 5px;
-    margin-bottom: 10px;
+  margin-top: 5px;
+  margin-bottom: 10px;
 }
 
 .btn {
-    font-family: 'Montserrat', sans-serif;
-    background-color: rgb(121, 46, 143);
-    border: none;
+  font-family: "Montserrat", sans-serif;
+  background-color: rgb(121, 46, 143);
+  border: none;
 }
 
 .btn:hover {
-background-color: rgb(35, 31, 32) ;
+  background-color: rgb(35, 31, 32);
 }
 
 footer {
@@ -203,41 +214,42 @@ footer {
 }
 
 .footer-logo {
-    height: 10vh;
-    margin-top: auto;
-    margin-bottom: auto;
-    opacity: .75;
+  height: 10vh;
+  margin-top: auto;
+  margin-bottom: auto;
+  opacity: 0.75;
 }
 
 .home {
-    margin-top: 2vh;
-    text-align: center;
-    font-size: 40px;
-    color: rgb(197, 197, 197);
+  margin-top: 2vh;
+  text-align: center;
+  font-size: 40px;
+  color: rgb(197, 197, 197);
 }
 
 .home:hover {
-    color: rgb(35, 31, 32);
+  color: rgb(35, 31, 32);
 }
 
 .return {
-    text-align: center;
-    font-size: 15px;
-    font-family: 'Montserrat', sans-serif;
-    color: rgb(197, 197, 197);
+  text-align: center;
+  font-size: 15px;
+  font-family: "Montserrat", sans-serif;
+  color: rgb(197, 197, 197);
 }
 
 .return-home {
-    text-decoration: none;
+  text-decoration: none;
 }
 
 .return-home:hover {
-    text-decoration: none;
-    color: rgb(35, 31, 32) !important;
+  text-decoration: none;
+  color: rgb(35, 31, 32) !important;
 }
 
 @media screen and (max-width: 768px) {
-  .dropdown, .short {
+  .dropdown,
+  .short {
     display: flex;
   }
   .full {
@@ -258,12 +270,12 @@ footer {
     font-weight: bolder;
   }
   .content {
-      height: auto;
-      padding-bottom: 10vh;
+    height: auto;
+    padding-bottom: 10vh;
   }
 
   #contact {
-      padding-top: 10vh;
+    padding-top: 10vh;
   }
 
   #chat {
@@ -272,8 +284,8 @@ footer {
 }
 
 @media screen and (max-width: 450px) {
-.logo-long {
+  .logo-long {
     width: 90%;
     height: auto;
-}
+  }
 }
