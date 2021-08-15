@@ -42,7 +42,7 @@ header {
     color: rgb(121, 46, 143);
 }
 
-.dropdown {
+.dropdown, .short {
   display: none;
 }
 
@@ -96,7 +96,6 @@ h1 {
 
 .content {
   background-color: rgba(228, 227, 227, 0.9);
-  /* height: 75vh; */
   padding-top: 10vh;
   padding-bottom: 10vh;
 }
@@ -155,6 +154,7 @@ input, textarea {
     background-color:  rgba(255, 255, 255, 0.75) !important;
     font-family: 'Montserrat', sans-serif;
     color:rgb(35, 31, 32) ;
+    font-size: 15px !important;
 }
 
 .first-pad {
@@ -184,9 +184,6 @@ background-color: rgb(35, 31, 32) ;
 
 footer {
   height: 25vh;
-  /* background-image: url(./Images//mormonShort.png);
-  background-size: cover;
-  background-position: center; */
 }
 
 .foot {
@@ -195,14 +192,6 @@ footer {
   display: flex;
   justify-content: center;
 }
-
-/* h4 {
-  color: rgb(214, 214, 214);
-  font-size: 35px;
-  margin-top: auto;
-  margin-bottom: auto;
-  font-family: "Playfair Display", serif;
-} */
 
 .foot-icon {
   color: rgb(214, 214, 214);
@@ -248,7 +237,7 @@ footer {
 }
 
 @media screen and (max-width: 768px) {
-  .dropdown {
+  .dropdown, .short {
     display: flex;
   }
   .full {
