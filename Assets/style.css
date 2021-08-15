@@ -100,8 +100,9 @@ h1 {
 
 .content {
   background-color: rgba(228, 227, 227, 0.9);
-  height: 75vh;
+  /* height: 75vh; */
   padding-top: 10vh;
+  padding-bottom: 10vh;
 }
 
 h3 {
@@ -149,6 +150,33 @@ p {
     text-decoration: none;
 }
 
+#email-input {
+    margin-top: 5px;
+    margin-bottom: 5px;
+}
+
+.first-pad {
+    padding-right: 2.5px;
+    padding-left: 0;
+}
+
+.last-pad {
+    padding-right: 0;
+    padding-left: 2.5px;
+}
+
+.form-group {
+    margin-bottom: 10px;
+}
+
+.btn {
+    background-color: rgb(121, 46, 143);
+    border: none;
+}
+
+.btn:hover {
+background-color: rgb(35, 31, 32) ;
+}
 
 footer {
   height: 25vh;
@@ -181,6 +209,12 @@ footer {
   margin-bottom: auto;
 }
 
+.footer-logo {
+    height: 10vh;
+    margin-top: auto;
+    margin-bottom: auto;
+}
+
 @media screen and (max-width: 768px) {
   .dropdown {
     display: flex;
@@ -209,5 +243,9 @@ footer {
 
   #contact {
       padding-top: 10vh;
+  }
+
+  #chat {
+    padding-top: 10vh;
   }
 }
