@@ -180,9 +180,9 @@ background-color: rgb(35, 31, 32) ;
 
 footer {
   height: 25vh;
-  background-image: url(./Images//mormonShort.png);
+  /* background-image: url(./Images//mormonShort.png);
   background-size: cover;
-  background-position: center;
+  background-position: center; */
 }
 
 .foot {
