@@ -20,10 +20,6 @@ nav {
   height: 10vh;
 }
 
-.email {
-    height: 7.5vh;
-}
-
 .navbar-text {
   padding: 0;
 }
@@ -155,6 +151,12 @@ p {
     margin-bottom: 5px;
 }
 
+input, textarea {
+    background-color:  rgba(255, 255, 255, 0.75) !important;
+    font-family: 'Montserrat', sans-serif;
+    color:rgb(35, 31, 32) ;
+}
+
 .first-pad {
     padding-right: 2.5px;
     padding-left: 0;
@@ -171,6 +173,7 @@ p {
 }
 
 .btn {
+    font-family: 'Montserrat', sans-serif;
     background-color: rgb(121, 46, 143);
     border: none;
 }
@@ -214,6 +217,34 @@ footer {
     height: 10vh;
     margin-top: auto;
     margin-bottom: auto;
+    opacity: .75;
+}
+
+.home {
+    margin-top: 2vh;
+    text-align: center;
+    font-size: 40px;
+    color: rgb(197, 197, 197);
+}
+
+.home:hover {
+    color: rgb(35, 31, 32);
+}
+
+.return {
+    text-align: center;
+    font-size: 15px;
+    font-family: 'Montserrat', sans-serif;
+    color: rgb(197, 197, 197);
+}
+
+.return-home {
+    text-decoration: none;
+}
+
+.return-home:hover {
+    text-decoration: none;
+    color: rgb(35, 31, 32) !important;
 }
 
 @media screen and (max-width: 768px) {
