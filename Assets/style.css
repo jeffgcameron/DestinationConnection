@@ -38,10 +38,6 @@ header {
   font-family: "Playfair Display SC", serif;
 }
 
-/* .nav-link:hover {
-  color: rgb(121, 46, 143);
-} */
-
 .dropdown,
 .short {
   display: none;
@@ -138,13 +134,11 @@ p {
 }
 
 .info {
-  /* color: rgb(35, 31, 32); */
   color: rgb(121, 46, 143);
 }
 
 .info:hover {
-  /* color: rgb(121, 46, 143); */
-   color: rgb(35, 31, 32);
+    color: rgb(35, 31, 32);
   text-decoration: none;
 }
 
