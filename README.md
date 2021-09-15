@@ -20,7 +20,7 @@ Usage requires that the user simply access the application through their browser
 ## Technologies Used
 HTML, CSS, Form Connect, GoDaddy
 
-### Questions 
+## Questions 
 Please email me at jeffgcameron@gmail.com
 
 ## License
