@@ -14,6 +14,9 @@ https://destinationconnection.services/
 ## Details
 Please click on the connect phone or email link to contact directly. If you wish to send a quick inquiry, please use the form located at the bottom of the page. Thank you!
 
+## Installation
+Usage requires that the user simply access the application through their browser. No installation is required.
+
 ## Technologies Used
 HTML, CSS, Form Connect, GoDaddy
 
