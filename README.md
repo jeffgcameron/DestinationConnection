@@ -11,6 +11,12 @@ https://destinationconnection.services/
 ![Destination Connection Landing Page](./Assets/Images/DCScreenshot.png)
 ![Destination Connection Connect Page](./Assets/Images/DCScreenshot2.png)
 
+## Details
+Please click on the connect phone or email link to contact directly. If you wish to send a quick inquiry, please use the form located at the bottom of the page. Thank you!
+
+## Technologies Used
+HTML, CSS, Form Connect, GoDaddy
+
 ### Questions 
 Please email me at jeffgcameron@gmail.com
 
