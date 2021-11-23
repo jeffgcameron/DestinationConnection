@@ -248,6 +248,11 @@ footer {
 
 }
 
+.foot-icon:hover {
+  color: rgb(121, 46, 143);
+
+}
+
 .footer-logo {
   height: 10vh;
   margin-top: auto;
