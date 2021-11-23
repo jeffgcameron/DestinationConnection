@@ -129,16 +129,24 @@ p {
 }
 
 .info-phone {
-  margin-top: 10px;
-  margin-bottom: 10px;
+  /* margin-top: 10px;
+  margin-bottom: 10px; */
 }
 
-.info {
-  color: rgb(121, 46, 143);
+.info, .info-footer {
+  color: rgb(205, 209, 210);
+  font-size: 15px;
+}
+
+.footer-line {
+  border-top: 1px solid rgb(205, 209, 210, .5);
+  margin-top: 7px;
+  margin-bottom: 7px;
+  width: 5%;
 }
 
 .info:hover {
-    color: rgb(35, 31, 32);
+    color: rgb(121, 46, 143);
   text-decoration: none;
 }
 
@@ -189,24 +197,55 @@ input[type="email"]:focus {
   background-color: rgb(35, 31, 32);
 }
 
+.reviews {
+  margin-top: 10vh;
+}
+
+#reviews {
+  /* margin-right: 10vh;
+  margin-left: 10vh; */
+  margin-bottom: 10px;
+  
+  /* display: flex;
+  flex-direction: row;
+  position: absolute; */
+  transform: translate3d(0, 0, 0);
+  transition: 1000ms;
+}
+
+#review-creator {
+  font-style: italic;
+  margin-bottom: 0;
+}
+
+.arrow {
+  font-size: 25px;
+  color: rgb(121, 46, 143);
+  margin: auto;
+}
+
+.arrow :hover {
+  cursor: pointer;
+}
+
 footer {
-  height: 25vh;
+  height: 30vh;
+  background-color: rgba(0, 0, 0, 0.699);
+  text-align: center;
+  display: flex;
+  align-items: center;
 }
 
 .foot {
-  background-color: rgba(0, 0, 0, 0.699);
-  height: 25vh;
-  display: flex;
-  justify-content: center;
+  margin: auto;
+  
 }
 
 .foot-icon {
   color: rgb(214, 214, 214);
   font-size: 25px;
-  margin-left: 10px;
-  margin-right: 10px;
-  margin-top: auto;
-  margin-bottom: auto;
+  margin-top: 10px;
+
 }
 
 .footer-logo {

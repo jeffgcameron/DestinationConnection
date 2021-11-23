@@ -3,7 +3,10 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <meta name="description" content="Destination Connection is a boutique destination management provider with over 25 years of experience in the mountain west.">
+    <meta
+      name="description"
+      content="Destination Connection is a boutique destination management provider with over 25 years of experience in the mountain west."
+    />
     <title>Destination Connection</title>
     <link
       rel="stylesheet"
@@ -25,6 +28,10 @@
       rel="stylesheet"
     />
     <link rel="icon" href="./Assets/Images/DCS_Logomark White.png" />
+    <script
+      src="https://kit.fontawesome.com/098db39194.js"
+      crossorigin="anonymous"
+    ></script>
   </head>
   <body>
     <div class="landing">
@@ -67,23 +74,28 @@
         </nav>
       </header>
       <img
-      alt="Destination Connection Logo"
+        alt="Destination Connection Logo"
         class="logo-long"
         src="./Assets/Images/DCS Logo_DCS Logo White (No Services).png"
       />
     </div>
     <div class="content">
       <div class="row" id="about">
-        <div class="col-sm-12 col-md-4 info-section">
+        <div class="col-sm-0 col-md-1 info-section"></div>
+        <div class="col-sm-12 col-md-5 info-section">
           <i class="fas fa-info section-header"></i>
           <h3>About</h3>
           <hr class="logo-line" />
           <p class="section-content">
-            Destination Connection is a boutique destination management provider
-            with over 25 years of experience in the mountain west.
+            Destination Connection is a boutique destination management and
+            group travel concierge, specializing in programs in Jackson Hole and
+            the Mountain West. Destination Connection prides itself on
+            delivering expertly coordinated group programs and special events
+            while maintaining the highest level of integrity and reliable
+            commitment to success.
           </p>
         </div>
-        <div class="col-sm-12 col-md-4 about info-section">
+        <!-- <div class="col-sm-12 col-md-4 about info-section">
           <i id="contact" class="fas fa-address-book section-header"></i>
           <h3>Connect</h3>
           <hr class="logo-line" />
@@ -98,10 +110,10 @@
               shawn@destinationconnection.services</a
             >
           </p>
-        </div>
-        <div class="col-sm-12 col-md-4 info-section">
+        </div> -->
+        <div class="col-sm-12 col-md-5 info-section">
           <i id="chat" class="fas fa-comments section-header"></i>
-          <h3>Get in Touch!</h3>
+          <h3>Connect</h3>
           <hr class="logo-line" />
           <form
             action="https://formsubmit.co/shawn@destinationconnection.services"
@@ -167,15 +179,50 @@
             </button>
           </form>
         </div>
+        <div class="col-sm-0 col-md-1 info-section"></div>
+      </div>
+
+      <div class="info-section reviews">
+        <i class="fas fa-star section-header"></i>
+        <h3>Reviews</h3>
+        <hr class="logo-line" />
+        <div class="row">
+          <div class="col-2 arrow">
+            <i id="arrow-left" class="fas fa-chevron-left arrow"></i>
+          </div>
+          <div class="col-8">
+            <p id="reviews"></p>
+          </div>
+          <div class="col-2 arrow">
+            <i id="arrow-right" class="fas fa-chevron-right arrow"></i>
+          </div>
+        </div>
+        <p id="review-creator"></p>
       </div>
     </div>
 
-    <footer class="">
+    <footer>
       <div class="foot">
-        <img class="footer-logo" src="./Assets/Images/DCS_Logomark White.png" alt="DCS Logo"/>
+        <!-- <img class="footer-logo" src="./Assets/Images/DCS_Logomark White.png" alt="DCS Logo"/> -->
+        <p class="info-content info-footer">PO Box 2649</p>
+        <p class="info-content info-footer">Jackson, WY 83001</p>
+        <hr class="footer-line" />
+        <p class="info-content info-phone">
+          <a class="info" href="tel:3076909617"> 307.690.9617</a>
+        </p>
+        <!-- <hr class="footer-line"> -->
+        <p class="info-content info-email">
+          <a class="info" href="mailto: shawn@destinationconnection.services">
+            shawn@destinationconnection.services</a
+          >
+        </p>
+        <!-- <hr class="footer-line"> -->
+        <i class="fab fa-instagram foot-icon"></i>
       </div>
     </footer>
   </body>
+
+  <script src="./Assets/script.js"></script>
   <script
     src="https://code.jquery.com/jquery-3.5.1.slim.min.js"
     integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj"
@@ -186,5 +233,6 @@
     integrity="sha384-ho+j7jyWK8fNQe+A12Hb8AhRq26LrZ/JpcUGGOn+Y7RsweNrtN/tE3MoK7ZeZDyx"
     crossorigin="anonymous"
   ></script>
+
   <script></script>
 </html>
