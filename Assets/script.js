@@ -114,7 +114,7 @@ function displayReviews() {
       
     }
     clearInterval(reviewInterval);
-    reviewInterval = setInterval(reviewLoop, 10000);
+    reviewInterval = setInterval(reviewLoop, 7500);
   }
 
   function previousReview() {
@@ -131,10 +131,10 @@ function displayReviews() {
     }
 
     clearInterval(reviewInterval);
-    reviewInterval = setInterval(reviewLoop, 10000);
+    reviewInterval = setInterval(reviewLoop, 7500);
   }
 
-  let reviewInterval = setInterval(reviewLoop, 10000);
+  let reviewInterval = setInterval(reviewLoop, 7500);
 
   function reviewLoop() {
     // console.log(i);
