@@ -109,6 +109,11 @@ h3 {
   width: 5%;
 }
 
+.review-logo-line {
+  border-top: 1px solid rgb(121, 46, 143);
+  width: 2.083%;
+}
+
 .section-content {
   width: 75%;
   margin-left: auto;
@@ -124,13 +129,17 @@ p {
   color: rgb(35, 31, 32);
 }
 
-.info-content {
-  margin-bottom: 0;
+.learn-more {
+  color: rgb(121, 46, 143);
 }
 
-.info-phone {
-  /* margin-top: 10px;
-  margin-bottom: 10px; */
+.learn-more :hover{
+  color: rgb(35, 31, 32);
+text-decoration: none;
+}
+
+.info-content {
+  margin-bottom: 0;
 }
 
 .info, .info-footer {
@@ -309,6 +318,11 @@ footer {
     opacity: 100%;
     font-weight: bolder;
   }
+
+  .review-logo-line {
+    width: 5%;
+  }
+
   .content {
     height: auto;
     padding-bottom: 10vh;
