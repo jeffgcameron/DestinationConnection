@@ -38,6 +38,10 @@ header {
   font-family: "Playfair Display SC", serif;
 }
 
+.nav-item-active {
+  
+}
+
 .dropdown,
 .short {
   display: none;
