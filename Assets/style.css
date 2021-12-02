@@ -2,6 +2,7 @@ html,
 body {
   max-width: 100%;
   overflow-x: hidden;
+  position: relative;
 }
 
 body {
@@ -18,6 +19,25 @@ nav {
   justify-content: space-around;
   align-items: center;
   height: 10vh;
+}
+
+#bottom-nav {
+  display: none;
+  justify-content: space-around;
+  align-items: center;
+  height: 5vh;
+  animation: navTransition 1s;
+
+  width: 100%;
+}
+
+.bottom-nav-main {
+  position: absolute;
+  background-color: rgba(31, 31, 31, 0.26);
+}
+
+.fa-bars:before {
+  font-size: 2.5vh;
 }
 
 .navbar-text {
@@ -38,8 +58,13 @@ header {
   font-family: "Playfair Display SC", serif;
 }
 
-.nav-item-active {
-  
+a:hover {
+  color: inherit !important;
+  font-weight: bolder;
+}
+
+.nav-link-active {
+color: rgb(121, 46, 143);
 }
 
 .dropdown,
@@ -54,6 +79,10 @@ header {
   margin: 5px;
 }
 
+/* .line2 {
+  background-color: rgb(121, 46, 143) !important;
+} */
+
 .dropdown-toggle::after {
   content: none;
 }
@@ -66,9 +95,14 @@ header {
   display: block;
   margin-left: auto;
   margin-right: auto;
+  position: absolute;
   height: 30vh;
   margin-top: 25vh;
+  /* top: 35vh; */
+  right: 0;
+  left: 0;
   opacity: 0.75;
+  animation: logoTransition 1s;
 }
 
 .about-logo {
@@ -216,10 +250,8 @@ input[type="email"]:focus {
   margin-top: 10vh;
 }
 
-#reviews {
-  margin-bottom: 10px;
-  transform: translate3d(0, 0, 0);
-  transition: 1000ms;
+#review-animation {
+  animation: navTransition 1s;
 }
 
 #review-creator {
@@ -396,18 +428,71 @@ margin-bottom: 10vh;
   opacity: 1;
 }
 
+@keyframes logoTransition {
+from {
+  opacity: 0;
+  transform: rotateY(-100deg);
+}
+
+to {
+  opacity: .75;
+  transform: rotateY(0);
+}
+}
+
+@keyframes navTransition {
+  from {
+    opacity: 0;
+    /* transform: rotateY(-100deg); */
+  }
+  
+  to {
+    opacity: 1;
+    /* transform: rotateY(0); */
+  }
+  }
+
+  @keyframes navTransitionBack {
+    from {
+      opacity: 1;
+      /* transform: rotateY(-100deg); */
+    }
+    
+    to {
+      opacity: 0;
+      /* transform: rotateY(0); */
+    }
+    }
+
 @media screen and (max-width: 768px) {
   .dropdown,
   .short {
     display: flex;
   }
-  .full {
+  /* .full {
     display: none;
-  }
+  } */
 
   .dropdown-menu {
     margin-top: 1.1vh;
     background-color: rgba(31, 31, 31, 0.7);
+  }
+
+  #bottom-nav {
+    height: 15vh;
+  }
+
+  /* .logo-long {
+    position: absolute;
+    top: 15vh;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+  } */
+
+  .nav {
+    display: flex;
+    justify-content: space-around;
   }
 
   .dropdown-item {

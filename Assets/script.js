@@ -2,6 +2,8 @@ const reviewsDiv = document.getElementById("reviews");
 const reviewCreatorDiv = document.getElementById("review-creator");
 const arrowRight = document.getElementById("arrow-right");
 const arrowLeft = document.getElementById("arrow-left");
+const burger = document.getElementById("burger");
+const bottomNav = document.getElementById("bottom-nav");
 
 const reviews = [
   {
@@ -87,15 +89,21 @@ const reviews = [
   },
 ];
 
-console.log(reviews.length);
+burger.addEventListener("click", showDropdown)
+
+function showDropdown() {
+  console.log(bottomNav.style.display);
+  if (bottomNav.style.display === "flex") {
+    bottomNav.style.display = "none"
+  } else bottomNav.style.display = "flex"
+}
+
 
 function displayReviews() {
   let i = 0;
 
   reviewsDiv.textContent = reviews[i].content;
   reviewCreatorDiv.textContent = reviews[i].creator;
-
-  console.log(i);
 
   arrowRight.addEventListener("click", nextReview);
   arrowLeft.addEventListener("click", previousReview);
@@ -105,10 +113,8 @@ function displayReviews() {
       i = 0;
       reviewsDiv.textContent = reviews[i].content;
       reviewCreatorDiv.textContent = reviews[i].creator;
-      console.log(i);
     } else {
       i++;
-      console.log(i);
       reviewsDiv.textContent = reviews[i].content;
       reviewCreatorDiv.textContent = reviews[i].creator;
       
@@ -118,7 +124,6 @@ function displayReviews() {
   }
 
   function previousReview() {
-    console.log(i);
     if (i === 0) {
       i = reviews.length - 1;
       reviewsDiv.textContent = reviews[i].content;
@@ -149,25 +154,5 @@ function displayReviews() {
     }
   }
 }
-//   const reviewInterval = setInterval(function () {
-
-//     if (reviews[i] === undefined) {
-//         clearInterval(reviewInterval);
-//         displayReviews()
-//     } else {
-//       reviewsDiv.textContent = reviews[i].content;
-//       reviewCreatorDiv.textContent = reviews[i].creator
-//       i++;
-//     }
-//   }, 10000);
-// }
 
 displayReviews();
-
-// console.log(reviews);
-// const reviews = [
-//   "Thank you for all you do behind the scenes to make me look good.  And for going way beyond your job scope to take care of me and our group. -David, January 2007",
-//   "I don’t know where to start saying thank you to you gal! You are truly a joy to work with, your efficiency blew me away.  I’m fairly detail oriented but you beat me by a mile. Thank you a hundred times for all you did to make our program such a success and for being who you are! -Cici August, 2008",
-//   "Where can we start to thank you for leading the way for our absolutely perfect program.  You were incredible to work with. . . Knowledgeable, creative, flexible, unfrazzled and always there for us! Thank you for all the guidance you gave us and your patience through the challenging decisions and logistics.  It was a great experience working with you and the result was a A+++. -Irene and Cindy, August 2009",
-//   "Thank you BIG TIME! -Lesley October 2010",
-// ];

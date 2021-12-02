@@ -29,25 +29,41 @@
     <div class="landing">
       <header class="header">
         <nav>
-          <div class="nav-link navbar-text">
-            <a href="https://destinationconnection.services/">
-              <!-- <i class="fas fa-arrow-circle-left about-home"></i> -->
-          <img
-            class="logo-header"
-            src="./Assets/Images/DCS_Logomark.png"
-            alt="DCS Logo"
-          />
-         
-      </a>
-          </div>
+          <a href= "https://destinationconnection.services/" class="nav-link navbar-text">
+            <img
+              class="logo-header"
+              src="./Assets/Images/DCS_Logomark.png"
+              alt="DCS Logo"
+            />
+          </a>
           <span class="navbar-text">
-            <ul class="nav">
-              <li class="nav-item">
-                <a class="nav-link">Jackson Hole, WY</a>
-              </li>
-           
+            <a
+            id="burger"
+            class="nav-link dropdown-toggle"
+            href="#"
+          >
+            <div class="line1"></div>
+            <div class="line2"></div>
+            <div class="line3"></div>
+          </a>
           </span>
         </nav>
+        <div id="bottom-nav">
+          <ul class="nav">
+            <li class="nav-item  full">
+              <a href="https://destinationconnection.services/" class="nav-link">Home</a>
+            </li>
+            <li class="nav-item full">
+              <a href= "https://destinationconnection.services/about" class="nav-link">About</a>
+            </li>
+            <li class="nav-item full">
+              <a href="#contact-info" class="nav-link">Contact</a>
+            </li>
+            <li class="nav-item full">
+              <a href="https://destinationconnection.services/SpecialEventConnection" class="nav-link">Special Event Connection</a>
+            </li>
+            </ul>
+        </div>
       </header>
 
     
@@ -65,7 +81,7 @@
     </div>
 
     <footer>
-      <div class="foot">
+      <div id= "contact-info" class="foot">
         <!-- <img class="footer-logo" src="./Assets/Images/DCS_Logomark White.png" alt="DCS Logo"/> -->
         <p class="info-content info-footer">PO Box 2649</p>
         <p class="info-content info-footer">Jackson, WY 83001</p>
@@ -91,6 +107,7 @@
     </footer>
 
   </body>
+  <script src="./Assets/script.js"></script>
   <script
     src="https://code.jquery.com/jquery-3.5.1.slim.min.js"
     integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj"
