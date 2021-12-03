@@ -175,6 +175,7 @@ p {
 
 .wedding-learn-more {
   margin-top: 10vh;
+  margin-bottom: 10vh;
 }
 
 .learn-more :hover {
@@ -431,6 +432,23 @@ margin-bottom: 10vh;
 
 .carousel-control-next, .carousel-control-prev {
   opacity: 1;
+}
+
+.pad-bottom {
+  padding-bottom: 10vh;
+}
+
+.bottom-logo {
+  height: 10vh;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.link-logo {
+  padding-bottom: 10vh;
+  /* padding-top: 10vh; */
+  background-color: rgba(228, 227, 227, 0.9);
 }
 
 @keyframes logoTransition {
