@@ -170,6 +170,11 @@ p {
 
 .learn-more {
   color: rgb(121, 46, 143);
+  text-align: center;
+}
+
+.wedding-learn-more {
+  margin-top: 10vh;
 }
 
 .learn-more :hover {
