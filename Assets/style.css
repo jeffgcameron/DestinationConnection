@@ -170,6 +170,7 @@ p {
 .learn-more {
   color: rgb(121, 46, 143);
   text-align: center;
+  margin-bottom: 0;
 }
 
 .wedding-learn-more {
@@ -536,7 +537,7 @@ to {
     /* padding-bottom: 10vh; */
   }
 
-  #contact {
+  #connect {
     padding-top: 10vh;
   }
 
@@ -551,6 +552,11 @@ to {
   .about-description-col {
     border-left-style: none;
     text-align: center;
+    padding-bottom: 10vh;
+  }
+
+  .about-description-bottom {
+    margin-bottom: 0;
   }
 
   .hr-hidden {
