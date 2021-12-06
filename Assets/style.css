@@ -201,7 +201,7 @@ p {
 }
 
 .info:hover {
-  color: rgb(121, 46, 143);
+  color: rgb(121, 46, 143) !important;
   text-decoration: none;
 }
 
