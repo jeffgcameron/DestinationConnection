@@ -10,8 +10,7 @@ body {
   background-size: cover;
   background-position: center;
   background-attachment: fixed;
-  /* height: 100vh; */
-  height: 100%;
+  height: 100vh;
 }
 
 nav {
@@ -125,6 +124,7 @@ color: rgb(121, 46, 143);
   font-family: myFirstFont;
   src: url(WalkwayBold.ttf);
 }
+
 h3 {
   font-family: myFirstFont;
   padding-top: 15px;
@@ -142,7 +142,8 @@ h1 {
   padding-top: 30vh;
   text-align: center;
   font-size: 50px;
-  font-family: "Playfair Display SC", serif;
+  /* font-family: "Playfair Display SC", serif; */
+  font-family: myFirstFont;
   color: rgb(197, 197, 197);
 }
 
@@ -397,7 +398,8 @@ a:hover {
   font-size: 25px;
   color:rgb(121, 46, 143); 
   font-style: italic;
-  font-family: "Playfair Display SC", serif;
+  /* font-family: "Playfair Display SC", serif; */
+  font-family: myFirstFont;
   text-align: center;
   margin-top: 25px;
 }
