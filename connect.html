@@ -7,10 +7,6 @@
       name="description"
       content="Destination Connection is a boutique destination management provider with over 25 years of experience in the mountain west."
     />
-    <meta
-      name="keywords"
-      content="Jackson Hole, corporate, incentive, group, wedding, rehearsal dinner, coordination, logistics, destination management company, concierge, activities, group travel, Park City, Bozeman, Big Sky, Wyoming, Utah, Montana, destination connection, destination, connection"
-    />
     <title>Destination Connection</title>
     <link
       rel="stylesheet"
@@ -59,12 +55,12 @@
             </a>
           </span>
         </nav>
-        <div id="bottom-nav" class="bottom-nav-main">
+        <div id="bottom-nav">
           <ul class="nav">
             <li class="nav-item full">
               <a
                 href="https://destinationconnection.services/"
-                class="nav-link nav-link-active"
+                class="nav-link"
                 >Home</a
               >
             </li>
@@ -78,7 +74,7 @@
             <li class="nav-item full">
               <a
                 href="https://destinationconnection.services/founder"
-                class="nav-link"
+                class="nav-link nav-link-active"
                 >Founder</a
               >
             </li>
@@ -96,91 +92,117 @@
           </ul>
         </div>
       </header>
-      <img
-        alt="Destination Connection Logo"
-        class="logo-long"
-        src="./Assets/Images/DCS Logo_DCS Logo White (No Services).png"
-      />
-    </div>
-    <div class="content">
-      <div class="row" id="about">
-        <div class="col-1 info-section"></div>
-        <div class=" col-10 info-section">
-          <!-- <i class="fas fa-info section-header"></i> -->
-          <!-- <h3>About</h3> -->
-          <!-- <hr class="logo-line" /> -->
-          <p class="section-content purple-text">
-            Destination Connection is a boutique destination management and
-            group travel concierge, specializing in programs in Jackson Hole and
-            the Mountain West. Destination Connection prides itself on
-            delivering expertly coordinated group programs and special events
-            while maintaining the highest level of integrity and reliable
-            commitment to success.
-          </p>
-          <!-- <p class="learn-more">
-            <a
-              class="learn-more"
-              href="https://destinationconnection.services/about"
-              >Learn More <i class="fas fa-external-link-alt"></i
-            ></a>
-          </p> -->
-        </div>
-   
-        
-        <div class="col-1 info-section"></div>
-      </div>
-
-      <div id="review" class="info-section reviews">
-        <!-- <i class="fas fa-star section-header"></i> -->
-        <h3>Testimonials</h3>
-        <hr class="review-logo-line" />
+ 
+    <div class="content about-content">
+        <div class="about-row">
         <div class="row">
-          <div class="col-2 arrow">
-            <i id="arrow-left" class="fas fa-chevron-left arrow"></i>
-          </div>
-          <div class="col-8">
-            <p id="reviews"></p>
-          </div>
-          <div class="col-2 arrow">
-            <i id="arrow-right" class="fas fa-chevron-right arrow"></i>
-          </div>
-        </div>
-        <p id="review-creator"></p>
-      </div>
+            <div class="col-sm-12 col-md-4 connect-left-div">
 
-      <!-- <p class="learn-more wedding-learn-more">
-        <a
-          class="learn-more"
-          href="https://destinationconnection.services/SpecialEventConnection"
-          >Special Events & Wedding Connection
-          <i class="fas fa-external-link-alt"></i
-        ></a>
-      </p> -->
-      <div>
-        <img
-          alt="Destination Connection Logo"
-          class="bottom-logo"
-          src="./Assets/Images/DCcolor.png"
-        />
-      </div>
+                
+                <p class="connect-left">PO Box 2649</p>
+                <p class="connect-left">Jackson, WY 83001</p>
+                <p class="connect-left">
+                  <a class="" href="tel:3076909617"> 307.690.9617</a>
+                </p>
+                <p class="connect-left">
+                  <a class="" href="mailto: shawn@destinationconnection.services">
+                    shawn@destinationconnection.services</a
+                  >
+                </p>
+            </div>
+            <div class="col-sm-12 col-md-8 about-description-col">
+                <div class="info-section">
+                    <h3 id="connect">Connect</h3>
+                    <hr class="logo-line" />
+                    <form
+                      action="https://formsubmit.co/shawn@destinationconnection.services"
+                      method="POST"
+                    >
+                      <div class="row section-content">
+                        <div class="col first-pad">
+                          <input
+                            type="text"
+                            id="first-input"
+                            name="first name"
+                            class="form-control"
+                            placeholder="First Name"
+                            required
+                          />
+                        </div>
+                        <div class="col last-pad">
+                          <input
+                            type="text"
+                            id="last-input"
+                            name="last name"
+                            class="form-control"
+                            placeholder="Last Name"
+                            required
+                          />
+                        </div>
+                      </div>
+                      <input
+                        type="hidden"
+                        name="_next"
+                        value="https://destinationconnection.services/thankyou"
+                      />
+                      <input
+                        type="email"
+                        name="email"
+                        class="form-control section-content"
+                        id="email-input"
+                        placeholder="Email"
+                        aria-describedby="emailHelp"
+                        required
+                      />
+                      <input type="hidden" name="_captcha" value="false" />
+                      <input
+                        type="text"
+                        name="_subject"
+                        class="form-control section-content"
+                        placeholder="Subject"
+                        required
+                      />
+                      <div class="form-group">
+                        <textarea
+                          type="text"
+                          name="Message"
+                          class="form-control section-content"
+                          id="message-input"
+                          placeholder="Write Your Message Here"
+                          rows="4"
+                          required
+                        ></textarea>
+                      </div>
+                      <button type="submit" value="Send" class="btn btn-primary">
+                        Connect <i class="far fa-paper-plane"></i>
+                      </button>
+                    </form>
+                  </div>
+            </div>
+        </div>
+</div>
     </div>
+    <div class="link-logo">
+      <img
+      alt="Destination Connection Logo"
+      class="bottom-logo bottom-logo-about"
+      src="./Assets/Images/DCcolor.png"
+    />
+  </div>
 
     <footer>
       <div id="contact-info" class="foot">
-        <!-- <img class="footer-logo" src="./Assets/Images/DCS_Logomark White.png" alt="DCS Logo"/> -->
         <p class="info-content info-footer">1560 Martin Lane</p>
         <p class="info-content info-footer">Jackson, WY 83001</p>
         <hr class="footer-line" />
         <p class="info-content info-phone">
           <a class="info" href="tel:3076909617"> 307.690.9617</a>
         </p>
-        <!-- <hr class="footer-line"> -->
         <p class="info-content info-email">
           <a class="info" href="mailto: shawn@destinationconnection.services">
             connect@destinationconnection.services</a
           >
         </p>
-        <!-- <hr class="footer-line"> -->
         <a
           target="_blank"
           rel="noopener noreferrer"
