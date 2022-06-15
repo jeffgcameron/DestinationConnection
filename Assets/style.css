@@ -10,7 +10,7 @@ body {
   background-size: cover;
   background-position: center;
   background-attachment: fixed;
-  height: 100vh;
+  /* height: 100vh; */
 }
 
 nav {
@@ -32,7 +32,7 @@ nav {
 
 .bottom-nav-main {
   position: absolute;
-  background-color: rgba(31, 31, 31, 0.26);
+  /* background-color: rgba(31, 31, 31, 0.26); */
 }
 
 .fa-bars:before {
@@ -49,6 +49,10 @@ nav {
 
 header {
   position: relative;
+}
+
+.header {
+
   background-color: rgba(31, 31, 31, 0.26);
 }
 
@@ -136,6 +140,11 @@ h1 {
   width: 100%;
 }
 
+.purple-text {
+  text-align: center;
+  padding: 12px
+}
+
 h3 {
   padding-top: 15px;
   font-size: 30px;
@@ -173,7 +182,7 @@ p {
   color: rgb(35, 31, 32);
 }
 
-.learn-more {
+/* .learn-more {
   color: rgb(121, 46, 143);
   text-align: center;
   margin-bottom: 0;
@@ -187,7 +196,7 @@ p {
 .learn-more :hover {
   color: rgb(35, 31, 32);
   text-decoration: none;
-}
+} */
 
 .info-content {
   margin-bottom: 0;
@@ -268,7 +277,7 @@ input[type="email"]:focus {
 
 #review-creator {
   font-style: italic;
-  margin-bottom: 0;
+  margin-bottom: 10vh;
 }
 
 .arrow {
@@ -349,6 +358,26 @@ padding: 10px;
   margin-bottom: auto;
 }
 
+.deco {
+  color:rgb(121, 46, 143); 
+}
+.deco :hover {
+  color: black !important;
+}
+
+a:hover {
+  text-decoration: none !important;
+}
+
+.services {
+  padding-top: 10vh;
+  padding-left: 12px ;
+  padding-right: 12px ;
+}
+
+.service-list {
+  padding-left: 25px;
+}
 
 #about-name {
   width: 100%;
@@ -476,9 +505,9 @@ box-shadow: 2px 2px 8px rgba(0, 0, 0, 0.5);
 }
 
 .link-logo {
-  padding-bottom: 10vh;
-  /* padding-top: 10vh; */
-  background-color: rgba(228, 227, 227, 0.9);
+  padding-bottom: 1vh;
+  padding-top: 10vh;
+  /* background-color: rgba(228, 227, 227, 0.9); */
 }
 
 @keyframes logoTransition {
@@ -530,11 +559,16 @@ to {
 
   #bottom-nav {
     height: 15vh;
+    font-size: 15px;
   }
 
   .nav {
     display: flex;
     justify-content: space-around;
+  }
+
+  .connect-left {
+    font-size: 12px;
   }
 }
 
@@ -556,6 +590,10 @@ to {
   .nav {
     display: flex;
     justify-content: space-around;
+  }
+
+  .nav-link {
+    font-size: 12px;
   }
 
   .dropdown-item {
@@ -592,7 +630,7 @@ to {
   .about-description-col {
     border-left-style: none;
     text-align: center;
-    padding-bottom: 10vh;
+    /* padding-bottom: 10vh; */
   }
 
   .about-description-bottom {
@@ -618,6 +656,10 @@ to {
       object-fit: cover;
       padding-left: 10px;
       padding-right: 10px;
+    }
+
+    .connect-left {
+      font-size: 1rem;
     }
 }
 
