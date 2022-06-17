@@ -123,7 +123,7 @@ color: rgb(121, 46, 143);
 @font-face {
   font-family: myFirstFont;
   src: url(WalkwayBold.ttf);
-}
+} 
 
 h3 {
   font-family: myFirstFont;
@@ -131,6 +131,7 @@ h3 {
   font-size: 30px;
   /* font-family: "Playfair Display SC", serif; */
   color: rgb(121, 46, 143);
+  text-align: center;
 }
 
 .section-header {
@@ -228,9 +229,9 @@ p {
   text-decoration: none;
 }
 
-#email-input {
+.form-space{
   margin-top: 5px;
-  margin-bottom: 5px;
+  /* margin-bottom: 5px; */
 }
 
 input,
@@ -377,10 +378,20 @@ a:hover {
   text-decoration: none !important;
 }
 
+.service-header {
+  font-style: italic;
+  text-align: center;
+}
+
 .services {
-  padding-top: 10vh;
+  /* padding-top: 10vh; */
+
   padding-left: 12px ;
   padding-right: 12px ;
+}
+
+.group-connection-row {
+  margin-top: 10vh ;
 }
 
 .service-list {
@@ -669,6 +680,9 @@ to {
 
     .connect-left {
       font-size: 1rem;
+    }
+    .connect-left-div {
+      margin-top: 10vh;
     }
 }
 
