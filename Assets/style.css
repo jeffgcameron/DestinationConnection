@@ -127,7 +127,7 @@ color: rgb(121, 46, 143);
 
 h3 {
   font-family: myFirstFont;
-  padding-top: 15px;
+  /* padding-top: 15px; */
   font-size: 30px;
   /* font-family: "Playfair Display SC", serif; */
   color: rgb(121, 46, 143);
