@@ -157,7 +157,10 @@ h1 {
 
 .purple-text {
   text-align: center;
-  padding: 12px
+  /* padding: 12px; */
+  color: rgb(121, 46, 143);
+  font-size: 20px;
+  font-weight: bold ;
 }
 
 
@@ -175,11 +178,6 @@ h1 {
   width: 75%;
   margin-left: auto;
   margin-right: auto;
-}
-
-.purple-text {
-  color: rgb(121, 46, 143);
-  font-size: 18px;
 }
 
 .info-name {
@@ -378,16 +376,15 @@ a:hover {
   text-decoration: none !important;
 }
 
-.service-header {
+/* .service-header {
   font-style: italic;
   text-align: center;
-}
+} */
 
 .services {
-  /* padding-top: 10vh; */
-
   padding-left: 12px ;
   padding-right: 12px ;
+  text-align: center;
 }
 
 .group-connection-row {
@@ -633,6 +630,10 @@ to {
   .content {
     height: auto;
     padding-bottom: 1vh;
+  }
+
+  .purple-text {
+    font-size: 18px;
   }
 
   #connect {
