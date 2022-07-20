@@ -19,6 +19,8 @@ nav {
   justify-content: space-around;
   align-items: center;
   height: 10vh;
+  /* background-color: rgba(31, 31, 31, 0.26); */
+
 }
 
 #bottom-nav {
@@ -28,11 +30,14 @@ nav {
   height: 5vh;
   animation: navTransition 1s;
   width: 100%;
+  font-weight: bolder;
+
+
 }
 
 .bottom-nav-main {
   position: absolute;
-  /* background-color: rgba(31, 31, 31, 0.26); */
+  font-weight: bolder;
 }
 
 .fa-bars:before {
@@ -49,11 +54,6 @@ nav {
 
 header {
   position: relative;
-}
-
-.header {
-
-  background-color: rgba(31, 31, 31, 0.26);
 }
 
 .nav-link {
@@ -157,7 +157,7 @@ h1 {
 
 .purple-text {
   text-align: center;
-  /* padding: 12px; */
+  padding: 12px;
   color: rgb(121, 46, 143);
   font-size: 20px;
   font-weight: bold ;
@@ -188,22 +188,6 @@ p {
   font-family: "Montserrat", sans-serif;
   color: rgb(35, 31, 32);
 }
-
-/* .learn-more {
-  color: rgb(121, 46, 143);
-  text-align: center;
-  margin-bottom: 0;
-}
-
-.wedding-learn-more {
-  margin-top: 10vh;
-  margin-bottom: 10vh;
-}
-
-.learn-more :hover {
-  color: rgb(35, 31, 32);
-  text-decoration: none;
-} */
 
 .info-content {
   margin-bottom: 0;
@@ -439,7 +423,9 @@ overflow: hidden;
   width: 100%;
 }
 
-
+.italics {
+  font-style: italic;
+}
 
 .wedding-thumb {
   width: 100%;
